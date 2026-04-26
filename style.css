@@ -1,0 +1,368 @@
+/* ====== Variables (احترافي) ====== */
+:root {
+  --main-color: #0d6efd;
+  --bg-color: #0f172a;
+  --card-color: #1e293b;
+  --text-color: #e2e8f0;
+  --muted-text: #94a3b8;
+  --hover-color: #1d4ed8;
+  --border-radius: 10px;
+}
+
+/* ====== Body ====== */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: Tahoma, Arial, sans-serif;
+  margin: 0;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  background: #020617 !important;
+  padding: 12px 20px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.navbar-nav .nav-link {
+  color: var(--muted-text) !important;
+  margin-right: 12px;
+  transition: 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+.navbar-nav .active {
+  color: var(--main-color) !important;
+  font-weight: bold;
+}
+
+/* ====== Logo/Profile ====== */
+#logo {
+  width: 55px;
+  height: 55px;
+}
+
+#profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* ====== Username ====== */
+#name {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+/* ====== Products ====== */
+.products, .productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: var(--card-color);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid #1e293b;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product p {
+  margin: 10px 0;
+  color: var(--text-color);
+}
+
+/* ====== Categories ====== */
+/* ====== Categories تحسين ====== */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 30px;
+}
+
+.categories a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  background: var(--card-color);
+  border-radius: 12px;
+  border: 1px solid #334155;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.categories a {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.categories a:hover {
+  background: var(--main-color);
+  transform: translateY(-3px);
+}
+
+/* ====== Buttons ====== */
+button, .btn {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: var(--hover-color);
+}
+
+/* ====== Forms ====== */
+/* ====== Forms Modern ====== */
+.EmailForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.login-box, .feedback-box {
+  width: 350px;
+  background: var(--card-color);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.login-p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+}
+
+.input-field:focus {
+  border-color: var(--main-color);
+}
+
+.input-button {
+  width: 100%;
+  padding: 10px;
+  background: var(--main-color);
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.input-button:hover {
+  background: var(--hover-color);
+}
+
+/* ====== Footer ====== */
+footer {
+  margin-top: 40px;
+}
+
+footer .navbar {
+  background: #020617 !important;
+  border-top: 1px solid #1e293b;
+}
+
+#footer_text {
+  color: var(--muted-text);
+  font-size: 14px;
+}
+
+/* Sticky Footer */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+
+
+
+
+.price {
+  color: #38bdf8;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
+/* ===== ADMIN DASHBOARD ===== */
+.Boxcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.box1, .box2, .box3 {
+  background: var(--card-color);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #334155;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+  transform: translateY(-5px);
+}
+
+.box1 h3, .box2 h3, .box3 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.box1 p, .box2 p, .box3 p {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+/* ===== TABLE STYLING (PRO LOOK) ===== */
+
+table.table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #1e1e2f;
+    color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* header */
+table.table thead {
+    background: #2c2c3f;
+    color: #ffffff;
+}
+
+table.table thead th {
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* rows */
+table.table tbody td {
+    padding: 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #2f2f45;
+}
+
+/* hover effect */
+table.table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
+    transform: scale(1.01);
+    transition: 0.15s ease;
+}
+
+table.table tbody tr:hover td {
+    color: #ffffff !important;
+}
+/* buttons inside table */
+table.table a.btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+/* image in table */
+table.table img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* ===== ADMIN FORMS ===== */
+.edit_product_container {
+  background: var(--card-color);
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.edit_product_container input,
+.edit_product_container textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+}
+
+.edit_product_container textarea {
+  resize: none;
+  height: 80px;
+}
+
+
+/* ===== PROFILE ===== */
+.profile_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.details_profile_container {
+  background: var(--card-color);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.details_profile_container p {
+  margin: 10px 0;
+}
