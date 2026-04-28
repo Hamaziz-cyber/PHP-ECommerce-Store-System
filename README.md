@@ -47,10 +47,10 @@ A simple e-commerce web application built using PHP, MySQL, HTML, CSS, and Boots
 
 ## 📷 Screenshots
 
-🔗 [Login Page]([LINK1](https://drive.google.com/file/d/1vcox9w8gP8GLOS_dklg15FougHCuj2fh/view?usp=sharing))  
-🔗 [Home Page]([LINK2](https://drive.google.com/file/d/1ikIGWhP7ncg71DOUhqhKggDNTRLzjJOV/view?usp=sharing))  
-🔗 [Categories Page]([LINK3](https://drive.google.com/file/d/15AFwe969ms34RI-96WmuCOyxXUzXemQX/view?usp=sharing))  
-🔗 [Admin Dashboard]([LINK4](https://drive.google.com/file/d/15tgcByhf3e-0FFeBKFJqtxLrWdsGVXMm/view?usp=sharing))
+🔗 [Login Page](https://drive.google.com/file/d/1vcox9w8gP8GLOS_dklg15FougHCuj2fh/view?usp=sharing)  
+🔗 [Home Page](https://drive.google.com/file/d/1ikIGWhP7ncg71DOUhqhKggDNTRLzjJOV/view?usp=sharing)  
+🔗 [Categories Page](https://drive.google.com/file/d/15AFwe969ms34RI-96WmuCOyxXUzXemQX/view?usp=sharing)  
+🔗 [Admin Dashboard](https://drive.google.com/file/d/15tgcByhf3e-0FFeBKFJqtxLrWdsGVXMm/view?usp=sharing)
 
 ---
 
