@@ -47,35 +47,10 @@ A simple e-commerce web application built using PHP, MySQL, HTML, CSS, and Boots
 
 ## 📷 Screenshots
 
-> Key pages of the system interface
-
----
-
-### 🔐 Login Page
-User authentication system with session-based login.
-
-![Login Page](screenshots/login.png)
-
----
-
-### 🏠 Home Page
-Displays random products and main user landing page after login.
-
-![Home Page](screenshots/home.png)
-
----
-
-### 📂 Categories Page
-Shows all product categories available in the system.
-
-![Categories Page](screenshots/categories.png)
-
----
-
-### 🛠 Admin Dashboard
-Overview of system statistics (users, products, categories).
-
-![Admin Dashboard](screenshots/admin-dashboard.png)
+🔗 [Login Page]([LINK1](https://drive.google.com/file/d/1vcox9w8gP8GLOS_dklg15FougHCuj2fh/view?usp=sharing))  
+🔗 [Home Page]([LINK2](https://drive.google.com/file/d/1ikIGWhP7ncg71DOUhqhKggDNTRLzjJOV/view?usp=sharing))  
+🔗 [Categories Page]([LINK3](https://drive.google.com/file/d/15AFwe969ms34RI-96WmuCOyxXUzXemQX/view?usp=sharing))  
+🔗 [Admin Dashboard]([LINK4](https://drive.google.com/file/d/15tgcByhf3e-0FFeBKFJqtxLrWdsGVXMm/view?usp=sharing))
 
 ---
 
